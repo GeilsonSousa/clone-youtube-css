@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Trilha de CSS</title>
+
+        <style>
+
+        * {
+            font-weight: bold;
+        }
+        h1 {background: darkblue;
+            color: lightgreen;
+        }
+        div {
+            background: lightblue;
+            color: darkblue
+        }
+        li {
+            background: lightgreen;
+        }
+        #texto-boas-vindas { 
+            background: red;
+            color: white;
+        }
+        .seletores-mais-comuns{  
+            background: yellowgreen   
+            color: white;
+        }
+        .texto-maiusculo {
+            text-transform: uppercase;
+        }
+        #explicacao-seletores {
+            background: lightcoral;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Seletores CSS</h1>
+        <p id="texto-boas-vindas">Bem Vindo!</p>
+        <p id="explicacao-seletores">No CSS nos possuimos seletores com ID</p>
+        <div>
+            <ul>
+                <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por tipo:</b>Busca Elementor por uma Tag HTML específica</li>
+                <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por ID(#):</b>Busca elementos atraves do atributo "id"</li>
+                <li class="seletores-mais-comuns"><b>Seletor por Classe:(.)</b>Busca elementos atraves do atributo "class"</li>
+                <li><b>Seletor Universal(*):</b>Seleciona todos os elementos HTML</li>
+                <li class="texto-maiusculo"><b>Seletor de Atributo([atrib]):</b>Seleciona elementos que possuem um atributo especifico em nosso HTML e conseguimos também buscar atributos com um valor especifico</Li>
+            </ul>
+        </div>
+    </body>
+</html>

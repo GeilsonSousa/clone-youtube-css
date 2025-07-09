@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+yt-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    fill: currentColor;
+    }   
+    
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #202020;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #181818;
+  height: calc(100vh - 60px);
+  padding: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+.video {
+  background-color: #1e1e1e;
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: calc(33.33% - 1rem);
+}
+
+.video img {
+  width: 100%;
+  border-radius: 4px;
+}
+.video h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 0rem;
+}
+
+.profile:hover {
+  background-color: #303030;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.profile span {
+  display: none;
+}
+.profile:hover span {
+  display: block;
+  position: absolute;
+  background-color: #202020;
+  padding: 0.5rem;
+  border-radius: 4px;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 0.8rem;  
+  white-space: nowrap;
+  z-index: 10;
+}
