@@ -9,7 +9,7 @@ Este projeto é um clone simplificado da interface do YouTube feito com HTML e C
 
 ## 🌐 Veja online
 
-👉 [Clique aqui para acessar no GitHub Pages](https://geilsonsousa.github.io/youtube-clone/stile.css)
+👉 [Clique aqui para acessar no GitHub Pages](https://geilsonsousa.github.io/clone-youtube-css/)
 
 ## 🛠️ Tecnologias utilizadas
 
