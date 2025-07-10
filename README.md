@@ -1,16 +1,27 @@
-# clone-youtube-css
-# Clone da Página do YouTube com CSS
+# 📺 Clone do YouTube com HTML e CSS
 
-Este projeto foi desenvolvido como parte de um desafio da DIO para praticar Flexbox e layout com CSS. O objetivo é reproduzir a interface do YouTube utilizando apenas HTML e CSS, com foco em posicionamento, responsividade e uso de SVGs.
+Este projeto é um clone simplificado da interface do YouTube feito com HTML e CSS, usando principalmente **Flexbox** para o layout.
 
-## 🧪 Tecnologias
+## 🔍 Prévia do projeto
+
+![Preview do projeto](assets/preview.png)
+
+## 🌐 Veja online
+
+👉 [Clique aqui para acessar no GitHub Pages](https://geilsonsousa.github.io/clone-youtube-css/)
+
+## 🛠️ Tecnologias utilizadas
+
 - HTML5
-- CSS3 (com Flexbox)
-- Responsividade com media queries
-- Ícones SVG
+- CSS3
+- Flexbox
 
-## 💻 Demonstração
-[ ](#)
+## 📁 Organização
 
-## 🚀 Autor
-Geilson Sousa Paulino
+- `index.html` → Estrutura da página
+- `style.css` → Estilo visual
+- `assets/` → Imagens e ícones
+
+## 🙋‍♂️ Autor
+
+Geilson Sousa – [@GeilsonSousa](https://github.com/GeilsonSousa)
