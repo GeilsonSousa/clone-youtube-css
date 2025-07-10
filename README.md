@@ -4,7 +4,8 @@ Este projeto é um clone simplificado da interface do YouTube feito com HTML e C
 
 ## 🔍 Prévia do projeto
 
-![Preview do projeto](assets/preview.png)
+![image](https://github.com/user-attachments/assets/7df08762-3060-4892-9b0b-b5e275a428dc)
+
 
 ## 🌐 Veja online
 
